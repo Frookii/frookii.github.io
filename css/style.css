@@ -1,0 +1,42 @@
+/*---My Bootstrap CSS --*/
+.jumbotron {
+  height:89.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color:#FFFFFF; 
+  background-size: 100%"
+}
+
+.footer {
+  background-color:#F8F9FA;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.map-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 60%; /* aspect ratio */
+	position: relative;
+}
+
+.map-responsive iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
