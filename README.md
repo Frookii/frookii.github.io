@@ -1,2 +1,2 @@
-# frookii.github-io
+# frookii.github.io
 Frookii website!
